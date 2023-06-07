@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_db_prod' );
+define( 'DB_NAME', 'wordpress_demo' );
 
 /** Database username */
-define( 'DB_USER', 'wp_db_prod_user' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_prod_here' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         '[NE,m7HPXGu+~Rkdawwe8YxGW.)g4~ +x7/|uc2/ZHd4Agj{!3As.b@K`9 vMgCE' );
+define( 'SECURE_AUTH_KEY',  'or1fW=9TZgi=Tx+^7g2Wdv/J)aVwMZIdyMWhjGof_3<$ldVwmP7jMpwLlU(Xg2+e' );
+define( 'LOGGED_IN_KEY',    'qZBrJUIVzA-pli(?)WtaUhrDdMeCu>itkw(/g]ctYU`SB(,nj7Dah#WnzEi(2*Yl' );
+define( 'NONCE_KEY',        'F|A`Wg)K3E9=-HmR^.e(MQroy]q.uhcL5iXXwP=!LQj+Aw3w]%6sNhsIpTc Rn`3' );
+define( 'AUTH_SALT',        'SXlW9OU -{nu-](sTVSWvUocO2@Zq?0/z!1{~550W?(-QwQ`On`/P}U^zc:2=Ju|' );
+define( 'SECURE_AUTH_SALT', 'qP(RCl.%fwc_0LN!S/Qw9[Qe|SD3}U8xx^7#ux7$KvB)$4?[XX]M`G1v&PjA%-RS' );
+define( 'LOGGED_IN_SALT',   'WJ%6d.=|W:]{Y740_Y[I0VjsiOosq^R6/cU$ORPYX6SDx<*9z.]Bx>5glU$qE1l@' );
+define( 'NONCE_SALT',       '7H0$rpd-XK&h#kZf$+~JO+[!rTciITP1I,y1zIlE&Ol(7kS+VpN|yrBmSko`dkv-' );
 
 /**#@-*/
 
