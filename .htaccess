@@ -12,5 +12,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /srini/myheart/code/demo-repository/myheart-demo/index.php [L]
 </IfModule>
-
-# END WordPress
